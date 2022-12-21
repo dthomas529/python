@@ -1,0 +1,27 @@
+def __init__(fish, species, length, color):
+  fish.species = species
+  fish.length = length
+  fish.color = color
+
+  print('The fish tank has a ' + fish.species + 'that is ' + str(fish.length) + 'long' + 'and ' + 'is ' + fish.color)
+
+# define behaviors of the class
+# A sample method; in OOP a method is a function
+# "self" allows access to the properties 
+# that are already defined in class
+  def swim(fish):
+    def eat(fish):
+      def eat(fish):
+        
+        oscar = Tank("Oscar")
+        oscar.swim()
+        oscar.eat()
+        oscar.eat()
+
+print('-----------------')
+
+angel = Tank("Angel Fish", 3):
+angel.swim()
+angel.eat()
+angel.eat()
+
