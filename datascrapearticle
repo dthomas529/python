@@ -1,0 +1,28 @@
+Program the scrapes articles for author, summmary, and keywords using Newspaper library at newspaper.readthedocs.io
+
+from newspaper import Article
+import nltk
+nltk.download('punkt')
+
+# User will input the URL of an article
+print('Enter URL here: ')
+url = input('')
+print('\n--------------------------\n')
+# The article is downloaded (method) and parsed (method) for desired targets (author, summary, publish dat, etc.)
+# Print to test code
+article = Article(url)
+article.download()
+article.parse()
+author = article.authors
+pub = article.publish_date
+
+# Create a method to access the natural language feature to target keywords and summary
+article.nlp()
+keywords = article.keywords
+summary = article.summary
+
+print("Author:", author)
+print('\n--------------------------\n')
+print("Keywords:", keywords)
+print('\n--------------------------\n')
+print("Summary:", summary)
