@@ -1,6 +1,4 @@
-
-
-
+# Program that creates a resume
 from docx import Document
 from docx.shared import Inches
 

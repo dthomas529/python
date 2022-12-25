@@ -1,4 +1,4 @@
-Program the scrapes articles for author, summmary, and keywords using Newspaper library at newspaper.readthedocs.io
+# Program the scrapes articles for author, summmary, and keywords using Newspaper library at newspaper.readthedocs.io
 
 from newspaper import Article
 import nltk
