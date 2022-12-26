@@ -5,7 +5,7 @@ from docx.shared import Inches
 document = Document()
 
 # profile picture
-document.add_picture('image.png', width=Inches(2.5))
+# document.add_picture('image.png', width=Inches(2.5))
 
 # name, phone number, and email details
 name = input('What is your name? ')
