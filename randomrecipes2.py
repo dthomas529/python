@@ -2,7 +2,9 @@ import tkinter as tk
 import requests
 from threading import Thread
 
-api = ""
+# api = ""
+# keywords: cuisineType, dishType, mealType, 
+# image: small 200x200
 recipes = []  
 recipe_number = 0
 
