@@ -6,4 +6,4 @@
 
 - 💞️ I’m looking to collaborate on projects that would benefit from my help and help me improve my understanding and proficiency of programming and acquire other tech skills.
 
-- 📫 If you think I might be a good fit, please contact me at thomas_dkhb@hotmail.com.
+- 📫 If you think I might be a good fit, please contact me at dthomas529@gmail.com.
